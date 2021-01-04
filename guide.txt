@@ -1,1 +1,2 @@
 file cấu hình database: \mvc\core\App.php
+chạy project với máy chủ ảo: ví dụ: localhost/todolist => todolist.com. Để các chức năng hoạt động đúng.

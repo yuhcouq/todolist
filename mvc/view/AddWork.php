@@ -23,7 +23,7 @@
 <?php
   }?>
   <p>Nhập đầy đủ thông tin để thêm công việc của bạn</p>
-  <form action="/Work/AddPost" class="was-validated" method="post">
+  <form action="<?php echo url('/Work/AddPost')?>" class="was-validated" method="post">
     <input type="hidden" class="form-control" id="uname" placeholder="Enter username" name="id" value="<?php if(isset($work)){ echo $work->id;}else echo 0;?>" required>
     <div class="form-group">
       <label for="uname">Tên công việc:</label>

@@ -11,7 +11,7 @@ class Work extends Controller{
             $this->model->start = $_POST["start"];
             $this->model->end = $_POST["end"];
             $this->model->status = $_POST["status"];
-            $this->view("AddWork",["Status" => ["Thêm",$this->model->insert($this->model)]]);
+            $this->view("ListWork",["status" => ["Thêm",$this->model->insert($this->model)],"work" => $this->model->List()]);
         }else{
             $this->view("ListWork",["status" => ["Cập nhật",$this->model->Update($_POST)],"work" => $this->model->List()]);
         }

@@ -38,5 +38,6 @@ class App{
             return explode("/",filter_var(trim($_GET["url"],"/")));
         }
     }
+
 }
 ?>

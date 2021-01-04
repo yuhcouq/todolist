@@ -62,10 +62,10 @@
           }?></td>
           <td>
               <div style="display:inline">
-              <button type="button" class="btn btn-primary"><a href="/Work/Update/<?php echo $w->id ?>" style="color:white">Sửa</a></button>
+              <button type="button" class="btn btn-primary"><a href="<?php echo url("/Work/Update/".$w->id)?>" style="color:white">Sửa</a></button>
               </div>
               <div style="display:inline; margin-left: 30px">
-              <button type="button" class="btn btn-primary"><a href="/Work/Delete/<?php echo $w->id ?>" style="color:white">Xóa</a></button> 
+              <button type="button" class="btn btn-primary"><a href="<?php echo url("/Work/Delete/".$w->id)?>" style="color:white">Xóa</a></button> 
               </div>
           </td>
         </tr>
