@@ -29,7 +29,7 @@
     }} ?>
 
   <div>
-    <button type="button" class="btn btn-primary"><a href="/Work/Update/Add" style="color:white">Thêm công việc</a></button>
+    <button type="button" class="btn btn-primary"><a href="<?php echo url("/Work/Add")?>" style="color:white">Thêm công việc</a></button>
   </div>
   <h2>Danh sách các công việc của bạn</h2>
   <p></p>   
